@@ -1,0 +1,85 @@
+Spring_Memos_2025_03_21
+
+<dependency>
+          <groupId>org.springframework</groupId>
+          <artifactId>spring-core</artifactId>
+          <version>6.2.0</version>
+      </dependency>
+
+mvn(메이븐) </dependency> 외부에 복사 core , context
+
+core
+context
+webmvc
+jdbc
+
+좌측 m심벌 누르면  다운된것 확인 가능
+
+wep.xml이 가장 빨리 실행된다.
+
+// servlet  -> spring에 적용한다.
+// param  -> 찾아서 셋팅을 해줘.
+
+New > directory
+      > XML Configuration File
+
+spring container가 bean이라는 것을 관리를 한다.
+
+context.xml 라는 녀석에게 위치를 지정해주면 된다.
+
+
+example.springexam01.controller
+
+<bean> = java 객체
+
+
+
+
+index -> controller ->  [insert -> 저장 -> controller(action) ->]  service -> dao -> db  (sql을 mybatis)
+
+db -> dao -> service -> 응답 jsp
+
+
+
+lombok 깔면 Getter, Setter 만들필요가 없다.
+
+생성자, 언어테이션(@Autowired) , dao
+
+
+jstl 
+
+
+jakarta.servlet.jsp.jstl
+
+
+
+<mappers> <mapper resource="PersonMapper.xml"/> 
+<from> -> <form>
+Persontb
+
+
+
+
+
+
+
+
+
+
+
+
+PersonService.java
+
+
+
+
+
+
+
+
+
+
+
+
+
+
