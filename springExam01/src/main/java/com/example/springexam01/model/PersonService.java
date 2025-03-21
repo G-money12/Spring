@@ -19,5 +19,24 @@ public class PersonService {
         List<Person> personList = personDAO.dao_List();
         return personList;
     }
-
+    //개수
+    public int getCount() {
+        return personDAO.dao_count();
+    }
+    //상세보기
+    public Person view(String id){
+        return personDAO.dao_view(id);
+    }
+    //삭제
+    public void delete(String id){
+        personDAO.dao_delete(id);
+    }
+    //수정폼
+    public Person updateForm(String id) {
+        return personDAO.dao_view(id);
+    }
+    //수정
+    public void update(Person person){
+        personDAO.dao_update(person);
+    }
 }
