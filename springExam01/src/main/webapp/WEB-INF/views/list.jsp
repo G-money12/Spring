@@ -12,10 +12,10 @@
     <title>Title</title>
 </head>
 <body>
-<h2>Person List</h2>
+<h2>Person List(${count})</h2>
 <c:forEach items="${personList}" var="person">
   이름 :${person.name}<br/>
-  아이디 :${person.id}<br/>
+  아이디 :<a href="pview?id=${person.id}">${person.id}</a><br/>
   성별 :${person.gender}<br/>
   직업 :${person.job}<br/>
     <br>

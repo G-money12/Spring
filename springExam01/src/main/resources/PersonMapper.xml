@@ -13,4 +13,20 @@
     <select id="personList" resultType="com.example.springexam01.dto.Person">
         select * from persontb
     </select>
+    <!-- 개수 -->
+    <select id="personCount" resultType="Integer">
+        select count(*) from persontb
+    </select>
+    <!-- 상세보기 -->
+    <select id="personView" parameterType="String" resultType="com.example.springexam01.dto.Person">
+        select * from persontb where id=#{id}
+    </select>
+    <delete id="personDelete" >
+        delete  from persontb where id=#{id}
+    </delete>
+    <update id="personUpdate">
+        update persontb set name=#{name}, password=#{password},
+        gender=#{gender}, job=#{job} where id=#{id}
+    </update>
+
 </mapper>

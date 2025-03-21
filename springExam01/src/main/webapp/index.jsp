@@ -4,9 +4,10 @@
 <h2>홈페이지</h2><br/>
 <a href="pinsert">추가</a><br/>
 <a href="plist">전체보기</a><br/>
-
-
-
+</hr>
+-------------------------------------------------------------------</br>
+<a href="/address/insert">Address 추가하기</a></br>
+<a href="/address/list">Address 전체보기</a></br>
 
 
 
